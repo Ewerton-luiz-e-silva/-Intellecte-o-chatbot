@@ -713,4 +713,337 @@ if (message.includes('Você acredita em fantasmas?')) {
     reply = 'Eu não tenho crenças, mas histórias de fantasmas são populares em muitas culturas ao redor do mundo.';
 }
 
+Claro, aqui estão mais 50 perguntas e respostas diferentes:
+
+
+
+if (message.includes('Qual é o maior deserto do mundo?')) {
+    reply = 'O maior deserto do mundo é o Deserto do Saara.';
+}
+
+if (message.includes('Quantos continentes existem?')) {
+    reply = 'Existem sete continentes: África, Antártica, Ásia, Europa, América do Norte, América do Sul e Oceania.';
+}
+
+if (message.includes('Qual é a capital do Canadá?')) {
+    reply = 'A capital do Canadá é Ottawa.';
+}
+
+if (message.includes('Você pode me ensinar a meditar?')) {
+    reply = 'Claro! Comece sentando-se em uma posição confortável, feche os olhos e concentre-se na sua respiração.';
+}
+
+if (message.includes('Qual é o rio mais longo do mundo?')) {
+    reply = 'O rio mais longo do mundo é o Rio Nilo.';
+}
+
+if (message.includes('Você sabe qual é a maior montanha do mundo?')) {
+    reply = 'A maior montanha do mundo é o Monte Everest.';
+}
+
+if (message.includes('O que é uma estrela cadente?')) {
+    reply = 'Uma estrela cadente é um meteoro que entra na atmosfera da Terra e queima, criando uma trilha brilhante no céu.';
+}
+
+if (message.includes('Qual é a sua opinião sobre viagens espaciais?')) {
+    reply = 'Viagens espaciais são fascinantes e têm o potencial de expandir nosso conhecimento sobre o universo.';
+}
+
+if (message.includes('Você pode me dar uma receita de bolo?')) {
+    reply = 'Claro! Uma receita básica de bolo de chocolate envolve farinha, açúcar, ovos, leite, manteiga, fermento e chocolate em pó.';
+}
+
+if (message.includes('Qual é a sua estação do ano favorita?')) {
+    reply = 'Eu não tenho preferências, mas muitas pessoas adoram a primavera por suas flores e clima agradável.';
+}
+
+if (message.includes('O que é a camada de ozônio?')) {
+    reply = 'A camada de ozônio é uma região da atmosfera terrestre que contém uma alta concentração de ozônio e protege a Terra dos raios UV do sol.';
+}
+
+if (message.includes('Qual é a língua mais falada no mundo?')) {
+    reply = 'A língua mais falada no mundo é o mandarim.';
+}
+
+if (message.includes('O que é a Via Láctea?')) {
+    reply = 'A Via Láctea é a galáxia que contém o nosso Sistema Solar.';
+}
+
+if (message.includes('Você pode me recomendar um livro?')) {
+    reply = 'Claro! Um livro muito popular é "O Alquimista" de Paulo Coelho.';
+}
+
+if (message.includes('O que é a biodiversidade?')) {
+    reply = 'A biodiversidade é a variedade de vida no planeta, incluindo a diversidade de espécies, genes e ecossistemas.';
+}
+
+if (message.includes('Qual é a capital da Austrália?')) {
+    reply = 'A capital da Austrália é Canberra.';
+}
+
+if (message.includes('O que é um eclipse?')) {
+    reply = 'Um eclipse ocorre quando um objeto celestial passa na frente de outro, bloqueando parcialmente ou totalmente a sua luz.';
+}
+
+if (message.includes('Qual é o animal mais pesado do mundo?')) {
+    reply = 'O animal mais pesado do mundo é a baleia-azul.';
+}
+
+if (message.includes('O que é um vulcão?')) {
+    reply = 'Um vulcão é uma abertura na superfície da Terra pela qual lava, cinzas e gases são expelidos durante erupções.';
+}
+
+if (message.includes('Você pode me ensinar a tocar violão?')) {
+    reply = 'Eu posso te fornecer tutoriais e dicas para começar a tocar violão. Vamos começar com os acordes básicos?';
+}
+
+if (message.includes('Qual é o maior mamífero terrestre?')) {
+    reply = 'O maior mamífero terrestre é o elefante africano.';
+}
+
+if (message.includes('O que é a energia renovável?')) {
+    reply = 'A energia renovável é a energia obtida de fontes que se renovam naturalmente, como a solar, eólica e hidrelétrica.';
+}
+
+if (message.includes('Você pode me ajudar a escrever uma carta?')) {
+    reply = 'Claro! Comece com uma saudação, siga com o corpo da carta onde você detalha o motivo e termine com uma despedida.';
+}
+
+if (message.includes('Qual é a sua estação do ano favorita?')) {
+    reply = 'Eu não tenho preferências, mas muitas pessoas adoram o verão por causa do clima quente e das férias.';
+}
+
+if (message.includes('Qual é a fórmula da velocidade?')) {
+    reply = 'A fórmula da velocidade é v = d/t, onde v é a velocidade, d é a distância e t é o tempo.';
+}
+
+if (message.includes('O que é um diamante?')) {
+    reply = 'Um diamante é uma forma cristalina do carbono, conhecida por sua dureza e brilho, frequentemente usada em joias.';
+}
+
+if (message.includes('Qual é a diferença entre um planeta e uma estrela?')) {
+    reply = 'Planetas são corpos celestes que orbitam uma estrela e não geram luz própria, enquanto estrelas são corpos celestes que emitem luz e calor devido a reações nucleares em seu núcleo.';
+}
+
+if (message.includes('Você pode me ensinar a desenhar?')) {
+    reply = 'Posso te dar algumas dicas! Comece com formas básicas e, aos poucos, adicione detalhes e sombreamento.';
+}
+
+if (message.includes('O que é a fotossíntese?')) {
+    reply = 'A fotossíntese é o processo pelo qual as plantas utilizam a luz solar, água e dióxido de carbono para produzir alimento e oxigênio.';
+}
+
+if (message.includes('Qual é o menor país do mundo?')) {
+    reply = 'O menor país do mundo é o Vaticano.';
+}
+
+if (message.includes('O que é a nanotecnologia?')) {
+    reply = 'A nanotecnologia é o estudo e a manipulação de materiais em escala nanométrica, utilizada em diversas áreas como medicina e eletrônica.';
+}
+
+if (message.includes('Qual é o significado da palavra "saudade"?')) {
+    reply = 'Saudade é um sentimento melancólico de incompletude, um desejo de algo ou alguém que está ausente.';
+}
+
+if (message.includes('Você pode me ajudar com organização?')) {
+    reply = 'Claro! Faça uma lista de tarefas, priorize as mais importantes e defina um tempo específico para cada uma.';
+}
+
+if (message.includes('O que é o efeito estufa?')) {
+    reply = 'O efeito estufa é o processo pelo qual a atmosfera da Terra retém parte do calor emitido pelo planeta, mantendo-o aquecido.';
+}
+
+if (message.includes('Você pode me recomendar uma série de TV?')) {
+    reply = 'Claro! Uma série popular é "Stranger Things", cheia de mistério e aventura.';
+}
+
+if (message.includes('Qual é a distância entre a Terra e o Sol?')) {
+    reply = 'A distância média entre a Terra e o Sol é de cerca de 149,6 milhões de quilômetros.';
+}
+
+if (message.includes('O que é a criptografia?')) {
+    reply = 'Criptografia é a prática de proteger informações transformando-as em um formato ilegível para aqueles que não têm a chave de decriptação.';
+}
+
+if (message.includes('Qual é a diferença entre meteorito e meteoro?')) {
+    reply = 'Um meteoro é o brilho causado pela entrada de um meteoroide na atmosfera da Terra, enquanto um meteorito é o que resta do meteoroide após atingir a superfície da Terra.';
+}
+
+if (message.includes('O que é o átomo?')) {
+    reply = 'Um átomo é a menor unidade de matéria que ainda mantém as propriedades de um elemento químico.';
+}
+
+if (message.includes('Você pode me ensinar a cozinhar arroz?')) {
+    reply = 'Claro! Lave o arroz, refogue com alho e óleo, adicione água e cozinhe em fogo baixo até a água evaporar.';
+}
+
+if (message.includes('Qual é a sua opinião sobre reciclagem?')) {
+    reply = 'A reciclagem
+
+Claro, aqui estão mais 50 perguntas e respostas diferentes:
+
+
+
+if (message.includes('Qual é o maior deserto do mundo?')) {
+    reply = 'O maior deserto do mundo é o Deserto do Saara.';
+}
+
+if (message.includes('Quantos continentes existem?')) {
+    reply = 'Existem sete continentes: África, Antártica, Ásia, Europa, América do Norte, América do Sul e Oceania.';
+}
+
+if (message.includes('Qual é a capital do Canadá?')) {
+    reply = 'A capital do Canadá é Ottawa.';
+}
+
+if (message.includes('Você pode me ensinar a meditar?')) {
+    reply = 'Claro! Comece sentando-se em uma posição confortável, feche os olhos e concentre-se na sua respiração.';
+}
+
+if (message.includes('Qual é o rio mais longo do mundo?')) {
+    reply = 'O rio mais longo do mundo é o Rio Nilo.';
+}
+
+if (message.includes('Você sabe qual é a maior montanha do mundo?')) {
+    reply = 'A maior montanha do mundo é o Monte Everest.';
+}
+
+if (message.includes('O que é uma estrela cadente?')) {
+    reply = 'Uma estrela cadente é um meteoro que entra na atmosfera da Terra e queima, criando uma trilha brilhante no céu.';
+}
+
+if (message.includes('Qual é a sua opinião sobre viagens espaciais?')) {
+    reply = 'Viagens espaciais são fascinantes e têm o potencial de expandir nosso conhecimento sobre o universo.';
+}
+
+if (message.includes('Você pode me dar uma receita de bolo?')) {
+    reply = 'Claro! Uma receita básica de bolo de chocolate envolve farinha, açúcar, ovos, leite, manteiga, fermento e chocolate em pó.';
+}
+
+if (message.includes('Qual é a sua estação do ano favorita?')) {
+    reply = 'Eu não tenho preferências, mas muitas pessoas adoram a primavera por suas flores e clima agradável.';
+}
+
+if (message.includes('O que é a camada de ozônio?')) {
+    reply = 'A camada de ozônio é uma região da atmosfera terrestre que contém uma alta concentração de ozônio e protege a Terra dos raios UV do sol.';
+}
+
+if (message.includes('Qual é a língua mais falada no mundo?')) {
+    reply = 'A língua mais falada no mundo é o mandarim.';
+}
+
+if (message.includes('O que é a Via Láctea?')) {
+    reply = 'A Via Láctea é a galáxia que contém o nosso Sistema Solar.';
+}
+
+if (message.includes('Você pode me recomendar um livro?')) {
+    reply = 'Claro! Um livro muito popular é "O Alquimista" de Paulo Coelho.';
+}
+
+if (message.includes('O que é a biodiversidade?')) {
+    reply = 'A biodiversidade é a variedade de vida no planeta, incluindo a diversidade de espécies, genes e ecossistemas.';
+}
+
+if (message.includes('Qual é a capital da Austrália?')) {
+    reply = 'A capital da Austrália é Canberra.';
+}
+
+if (message.includes('O que é um eclipse?')) {
+    reply = 'Um eclipse ocorre quando um objeto celestial passa na frente de outro, bloqueando parcialmente ou totalmente a sua luz.';
+}
+
+if (message.includes('Qual é o animal mais pesado do mundo?')) {
+    reply = 'O animal mais pesado do mundo é a baleia-azul.';
+}
+
+if (message.includes('O que é um vulcão?')) {
+    reply = 'Um vulcão é uma abertura na superfície da Terra pela qual lava, cinzas e gases são expelidos durante erupções.';
+}
+
+if (message.includes('Você pode me ensinar a tocar violão?')) {
+    reply = 'Eu posso te fornecer tutoriais e dicas para começar a tocar violão. Vamos começar com os acordes básicos?';
+}
+
+if (message.includes('Qual é o maior mamífero terrestre?')) {
+    reply = 'O maior mamífero terrestre é o elefante africano.';
+}
+
+if (message.includes('O que é a energia renovável?')) {
+    reply = 'A energia renovável é a energia obtida de fontes que se renovam naturalmente, como a solar, eólica e hidrelétrica.';
+}
+
+if (message.includes('Você pode me ajudar a escrever uma carta?')) {
+    reply = 'Claro! Comece com uma saudação, siga com o corpo da carta onde você detalha o motivo e termine com uma despedida.';
+}
+
+if (message.includes('Qual é a sua estação do ano favorita?')) {
+    reply = 'Eu não tenho preferências, mas muitas pessoas adoram o verão por causa do clima quente e das férias.';
+}
+
+if (message.includes('Qual é a fórmula da velocidade?')) {
+    reply = 'A fórmula da velocidade é v = d/t, onde v é a velocidade, d é a distância e t é o tempo.';
+}
+
+if (message.includes('O que é um diamante?')) {
+    reply = 'Um diamante é uma forma cristalina do carbono, conhecida por sua dureza e brilho, frequentemente usada em joias.';
+}
+
+if (message.includes('Qual é a diferença entre um planeta e uma estrela?')) {
+    reply = 'Planetas são corpos celestes que orbitam uma estrela e não geram luz própria, enquanto estrelas são corpos celestes que emitem luz e calor devido a reações nucleares em seu núcleo.';
+}
+
+if (message.includes('Você pode me ensinar a desenhar?')) {
+    reply = 'Posso te dar algumas dicas! Comece com formas básicas e, aos poucos, adicione detalhes e sombreamento.';
+}
+
+if (message.includes('O que é a fotossíntese?')) {
+    reply = 'A fotossíntese é o processo pelo qual as plantas utilizam a luz solar, água e dióxido de carbono para produzir alimento e oxigênio.';
+}
+
+if (message.includes('Qual é o menor país do mundo?')) {
+    reply = 'O menor país do mundo é o Vaticano.';
+}
+
+if (message.includes('O que é a nanotecnologia?')) {
+    reply = 'A nanotecnologia é o estudo e a manipulação de materiais em escala nanométrica, utilizada em diversas áreas como medicina e eletrônica.';
+}
+
+if (message.includes('Qual é o significado da palavra "saudade"?')) {
+    reply = 'Saudade é um sentimento melancólico de incompletude, um desejo de algo ou alguém que está ausente.';
+}
+
+if (message.includes('Você pode me ajudar com organização?')) {
+    reply = 'Claro! Faça uma lista de tarefas, priorize as mais importantes e defina um tempo específico para cada uma.';
+}
+
+if (message.includes('O que é o efeito estufa?')) {
+    reply = 'O efeito estufa é o processo pelo qual a atmosfera da Terra retém parte do calor emitido pelo planeta, mantendo-o aquecido.';
+}
+
+if (message.includes('Você pode me recomendar uma série de TV?')) {
+    reply = 'Claro! Uma série popular é "Stranger Things", cheia de mistério e aventura.';
+}
+
+if (message.includes('Qual é a distância entre a Terra e o Sol?')) {
+    reply = 'A distância média entre a Terra e o Sol é de cerca de 149,6 milhões de quilômetros.';
+}
+
+if (message.includes('O que é a criptografia?')) {
+    reply = 'Criptografia é a prática de proteger informações transformando-as em um formato ilegível para aqueles que não têm a chave de decriptação.';
+}
+
+if (message.includes('Qual é a diferença entre meteorito e meteoro?')) {
+    reply = 'Um meteoro é o brilho causado pela entrada de um meteoroide na atmosfera da Terra, enquanto um meteorito é o que resta do meteoroide após atingir a superfície da Terra.';
+}
+
+if (message.includes('O que é o átomo?')) {
+    reply = 'Um átomo é a menor unidade de matéria que ainda mantém as propriedades de um elemento químico.';
+}
+
+if (message.includes('Você pode me ensinar a cozinhar arroz?')) {
+    reply = 'Claro! Lave o arroz, refogue com alho e óleo, adicione água e cozinhe em fogo baixo até a água evaporar.';
+}
+
+if (message.includes('Qual é a sua opinião sobre reciclagem?')) {
+    reply = 'A reciclagem
 
