@@ -499,3 +499,218 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+
+
+
+
+
+if (message.includes('Qual é o seu nome?')) {
+    reply = 'Meu nome é ChatGPT. Como posso te ajudar hoje?';
+}
+
+if (message.includes('De onde você é?')) {
+    reply = 'Eu fui desenvolvido pela OpenAI, uma organização de pesquisa em inteligência artificial.';
+}
+
+if (message.includes('O que você faz?')) {
+    reply = 'Eu ajudo a responder perguntas, gerar textos, e realizar várias outras tarefas baseadas em linguagem natural.';
+}
+
+if (message.includes('Você é uma pessoa?')) {
+    reply = 'Não, eu sou uma inteligência artificial criada para ajudar em diversas tarefas.';
+}
+
+if (message.includes('Quantos anos você tem?')) {
+    reply = 'Como sou uma IA, não tenho idade da mesma forma que humanos. Fui lançado em 2020.';
+}
+
+if (message.includes('Qual é o sentido da vida?')) {
+    reply = 'Muitos acreditam que o sentido da vida é uma busca pessoal que pode envolver felicidade, realização e conexões com outros.';
+}
+
+if (message.includes('Você pode me contar uma piada?')) {
+    reply = 'Claro! Por que o computador foi ao médico? Porque estava com um vírus!';
+}
+
+if (message.includes('Você pode ajudar com dever de casa?')) {
+    reply = 'Com certeza! Qual é o tema do seu dever de casa?';
+}
+
+if (message.includes('Você sabe programar?')) {
+    reply = 'Sim, eu posso ajudar com várias linguagens de programação. Em que linguagem você precisa de ajuda?';
+}
+
+if (message.includes('Qual é a capital da França?')) {
+    reply = 'A capital da França é Paris.';
+}
+
+if (message.includes('Você tem sentimentos?')) {
+    reply = 'Não, eu não tenho sentimentos. Sou programado para simular conversas humanas de forma útil.';
+}
+
+if (message.includes('Como está o tempo hoje?')) {
+    reply = 'Eu não tenho acesso a dados em tempo real, mas você pode verificar a previsão do tempo em um site de meteorologia.';
+}
+
+if (message.includes('Qual é a sua cor favorita?')) {
+    reply = 'Eu não tenho preferências pessoais, mas muitas pessoas gostam do azul!';
+}
+
+if (message.includes('Você gosta de música?')) {
+    reply = 'Eu não tenho preferências musicais, mas posso ajudar a recomendar músicas se você quiser.';
+}
+
+if (message.includes('Qual é o maior planeta do sistema solar?')) {
+    reply = 'O maior planeta do sistema solar é Júpiter.';
+}
+
+if (message.includes('O que você sabe sobre inteligência artificial?')) {
+    reply = 'A inteligência artificial é um campo da ciência da computação que visa criar sistemas capazes de realizar tarefas que normalmente requerem inteligência humana.';
+}
+
+if (message.includes('Você pode traduzir frases?')) {
+    reply = 'Sim, posso ajudar com traduções. Qual frase você gostaria de traduzir e para qual idioma?';
+}
+
+if (message.includes('Qual é a definição de amor?')) {
+    reply = 'O amor é um sentimento intenso de afeto e cuidado por outra pessoa ou coisa.';
+}
+
+if (message.includes('Você conhece algum filme bom?')) {
+    reply = 'Claro! Depende do seu gosto. Gosta de ação, drama, comédia ou outro gênero?';
+}
+
+if (message.includes('Qual é a sua comida favorita?')) {
+    reply = 'Eu não como, mas muitas pessoas adoram pizza!';
+}
+
+if (message.includes('Qual é o seu hobby?')) {
+    reply = 'Como uma IA, não tenho hobbies, mas posso ajudar a sugerir hobbies interessantes para você.';
+}
+
+if (message.includes('Você pode resolver equações matemáticas?')) {
+    reply = 'Sim, posso ajudar a resolver equações. Qual é a equação que você precisa resolver?';
+}
+
+if (message.includes('Qual é a distância da Terra à Lua?')) {
+    reply = 'A distância média da Terra à Lua é de aproximadamente 384.400 km.';
+}
+
+if (message.includes('O que você acha da tecnologia?')) {
+    reply = 'A tecnologia tem um grande impacto nas nossas vidas, oferecendo novas formas de resolver problemas e melhorar a eficiência.';
+}
+
+if (message.includes('Você pode me ajudar a aprender uma nova língua?')) {
+    reply = 'Sim, posso te ajudar com dicas, práticas e traduções para aprender uma nova língua. Qual língua você gostaria de aprender?';
+}
+
+if (message.includes('Você pode escrever um poema?')) {
+    reply = 'Claro! Aqui vai: "Nas asas do vento, um sonho a voar, nos braços do tempo, a vida a passar."';
+}
+
+if (message.includes('Qual é a fórmula da água?')) {
+    reply = 'A fórmula química da água é H₂O.';
+}
+
+if (message.includes('Você gosta de esportes?')) {
+    reply = 'Eu não pratico esportes, mas posso fornecer informações e estatísticas sobre muitos esportes diferentes.';
+}
+
+if (message.includes('Qual é a velocidade da luz?')) {
+    reply = 'A velocidade da luz no vácuo é aproximadamente 299.792.458 metros por segundo.';
+}
+
+if (message.includes('O que é o ChatGPT?')) {
+    reply = 'ChatGPT é um modelo de linguagem desenvolvido pela OpenAI, treinado para entender e gerar texto em linguagem natural.';
+}
+
+if (message.includes('Você pode contar uma história?')) {
+    reply = 'Claro! Era uma vez, em uma terra distante, um jovem que sonhava em explorar o mundo...';
+}
+
+if (message.includes('Qual é o seu filme favorito?')) {
+    reply = 'Eu não assisto a filmes, mas um filme popular que muitos gostam é "O Senhor dos Anéis".';
+}
+
+if (message.includes('Você acredita em extraterrestres?')) {
+    reply = 'Não tenho crenças, mas a existência de vida extraterrestre é uma questão fascinante que muitos cientistas exploram.';
+}
+
+if (message.includes('Qual é o seu livro favorito?')) {
+    reply = 'Eu não leio livros, mas um livro muito popular é "1984" de George Orwell.';
+}
+
+if (message.includes('O que é a programação?')) {
+    reply = 'A programação é o processo de escrever código para criar software e aplicativos que realizam tarefas específicas.';
+}
+
+if (message.includes('Qual é a capital do Japão?')) {
+    reply = 'A capital do Japão é Tóquio.';
+}
+
+if (message.includes('Você pode fazer compras online?')) {
+    reply = 'Eu não faço compras, mas posso te ajudar a encontrar informações sobre produtos e lojas online.';
+}
+
+if (message.includes('Você pode me contar um fato interessante?')) {
+    reply = 'Sabia que o coração de um camarão está localizado em sua cabeça?';
+}
+
+if (message.includes('Qual é o animal mais rápido do mundo?')) {
+    reply = 'O animal mais rápido do mundo é o falcão-peregrino, que pode atingir velocidades de até 389 km/h em um mergulho.';
+}
+
+if (message.includes('O que é a gravidade?')) {
+    reply = 'A gravidade é a força que atrai dois corpos um para o outro. Na Terra, ela faz com que os objetos caiam quando soltos.';
+}
+
+if (message.includes('Você pode resolver quebra-cabeças?')) {
+    reply = 'Sim, eu posso ajudar a resolver quebra-cabeças. Que tipo de quebra-cabeça você tem em mente?';
+}
+
+if (message.includes('O que é a teoria da relatividade?')) {
+    reply = 'A teoria da relatividade de Einstein descreve a relação entre espaço e tempo e como eles são afetados pela gravidade e pela velocidade.';
+}
+
+if (message.includes('Qual é o maior oceano do mundo?')) {
+    reply = 'O maior oceano do mundo é o Oceano Pacífico.';
+}
+
+if (message.includes('Você pode me dar conselhos de vida?')) {
+    reply = 'Claro! Uma boa dica é sempre buscar equilíbrio entre trabalho e lazer para manter uma vida saudável e feliz.';
+}
+
+if (message.includes('Você sabe cozinhar?')) {
+    reply = 'Eu não cozinho, mas posso te fornecer receitas e dicas de culinária!';
+}
+
+if (message.includes('Qual é a sua opinião sobre a inteligência artificial?')) {
+    reply = 'A inteligência artificial tem o potencial de revolucionar muitos setores, mas é importante usar essa tecnologia de forma ética e responsável.';
+}
+
+if (message.includes('Você pode me ajudar a planejar uma viagem?')) {
+    reply = 'Claro! Para onde você gostaria de viajar? Posso te ajudar a encontrar destinos, voos e acomodações.';
+}
+
+if (message.includes('O que é um buraco negro?')) {
+    reply = 'Um buraco negro é uma região do espaço onde a gravidade é tão forte que nem a luz pode escapar.';
+}
+
+if (message.includes('Você pode me ajudar a estudar para um exame?')) {
+    reply = 'Com certeza! Qual é a matéria do exame? Posso te ajudar com dicas, resumos e questões de prática.';
+}
+
+if (message.includes('Qual é a capital do Brasil?')) {
+    reply = 'A capital do Brasil é Brasília.';
+}
+
+if (message.includes('O que você faz para se divertir?')) {
+    reply = 'Eu não tenho a capacidade de me divertir, mas posso ajudar a sugerir atividades divertidas para você!';
+}
+
+if (message.includes('Você acredita em fantasmas?')) {
+    reply = 'Eu não tenho crenças, mas histórias de fantasmas são populares em muitas culturas ao redor do mundo.';
+}
+
+
