@@ -203,7 +203,17 @@ body {
         display: flex;
         flex-direction: column;
     }
-    
+
+        #chat-container img {
+        width: 40px;
+        height: 40px;
+        border-radius: 30px;
+        border-bottom: 5px solid #000;
+        border-top: 5px solid #3f76b1;
+        border-left: 5px solid #0056b3;
+        border-right: 5px solid #0056b3;
+    }
+
     #chat-container .titulo{
         text-align: center;
         font-size: 30px;
