@@ -1,34 +1,37 @@
-const chatBox = document.getElementById('chat-box');
-const userInput = document.getElementById('user-input');
+document.addEventListener('DOMContentLoaded', function() {
+    const userInput = document.getElementById('user-input');
+    const sendButton = document.getElementById('send-button');
+    const chatBox = document.getElementById('chat-box');
 
-function sendMessage() {
-    const message = userInput.value.trim();
-    if (message !== '') {
-        appendMessage('user', message);
-        processMessage(message.toLowerCase());
-        userInput.value = '';
+    function sendMessage() {
+        const message = userInput.value.trim();
+        if (message !== '') {
+            appendMessage('user', message);
+            processMessage(message.toLowerCase());
+            userInput.value = '';
+            sendButton.classList.remove('show'); // Esconde o botão após o envio
+        }
     }
-}
 
-function appendMessage(sender, message) {
-    const messageElement = document.createElement('p');
-    messageElement.classList.add(sender === 'user' ? 'user-message' : 'bot-message');
-    messageElement.textContent = message;
-    chatBox.appendChild(messageElement);
-    chatBox.scrollTop = chatBox.scrollHeight;
-    
-    // Adicionando animação de entrada
-    messageElement.style.opacity = 0;
-    messageElement.style.transform = 'translateY(20px)';
-    setTimeout(() => {
-        messageElement.style.transition = 'opacity 0.5s, transform 0.5s';
-        messageElement.style.opacity = 1;
-        messageElement.style.transform = 'translateY(0)';
-    }, 10);
-}
+    function appendMessage(sender, message) {
+        const messageElement = document.createElement('p');
+        messageElement.classList.add(sender === 'user' ? 'user-message' : 'bot-message');
+        messageElement.textContent = message;
+        chatBox.appendChild(messageElement);
+        chatBox.scrollTop = chatBox.scrollHeight;
 
-function processMessage(message) {
-    let reply = '';
+        // Adicionando animação de entrada
+        messageElement.style.opacity = 0;
+        messageElement.style.transform = 'translateY(20px)';
+        setTimeout(() => {
+            messageElement.style.transition = 'opacity 0.5s, transform 0.5s';
+            messageElement.style.opacity = 1;
+            messageElement.style.transform = 'translateY(0)';
+        }, 10);
+    }
+
+    function processMessage(message) {
+        let reply = '';
 
 
     if (message.includes('fale um pouco sobre sua experiência profissional')) {
@@ -467,8 +470,21 @@ function processMessage(message) {
         reply = 'Desculpe, não consegui entender a sua pergunta. Pode reformular ou fazer outra?';
     }
 
+
     setTimeout(() => appendMessage('bot', reply), 500);
 }
+
+userInput.addEventListener('input', function() {
+    if (userInput.value.trim() !== '') {
+        sendButton.classList.add('show'); // Adiciona a classe 'show' para exibir o botão com animação
+    } else {
+        sendButton.classList.remove('show'); // Remove a classe 'show' para esconder o botão
+    }
+});
+
+sendButton.addEventListener('click', function() {
+    sendMessage();
+});
 
 userInput.addEventListener('keydown', function(event) {
     if (event.key === 'Enter') {
@@ -476,26 +492,21 @@ userInput.addEventListener('keydown', function(event) {
     }
 });
 
+const toggleButton = document.getElementById('toggle-list-btn');
 const listaDiv = document.querySelector('.lista');
+
+toggleButton.addEventListener('click', function() {
+    listaDiv.classList.toggle('show');
+    if (listaDiv.classList.contains('show')) {
+        toggleButton.textContent = ' < ';
+    } else {
+        toggleButton.textContent = ' > ';
+    }
+});
 
 listaDiv.addEventListener('wheel', (e) => {
     e.preventDefault();
-
     const delta = Math.max(-1, Math.min(1, (e.deltaY || -e.detail)));
     listaDiv.scrollLeft -= (delta * 40);
 });
-
-
-document.addEventListener('DOMContentLoaded', function() {
-    const toggleButton = document.getElementById('toggle-list-btn');
-    const listaDiv = document.querySelector('.lista');
-
-    toggleButton.addEventListener('click', function() {
-        listaDiv.classList.toggle('show');
-        if (listaDiv.classList.contains('show')) {
-            toggleButton.textContent = ' < ';
-        } else {
-            toggleButton.textContent = ' > ';
-        }
-    });
 });
