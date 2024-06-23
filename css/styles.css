@@ -228,7 +228,7 @@ body {
 
     /* Estilo para o container das perguntas sugeridas */
 #chat-box {
-    max-height: 550px;
+    max-height: 450px;
     overflow-y: auto;
     padding: 10px;
     border: 1px solid #ccc;
@@ -241,7 +241,7 @@ body {
     padding: 20px;
     background-color: #fff;
     overflow-y: auto;
-    height: 550px;
+    height: 450px;
 }
 
 /* Estilo para cada pergunta sugerida */
