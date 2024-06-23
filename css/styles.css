@@ -138,7 +138,7 @@ body {
     body {
         height: 100%;
         font-family: Arial, sans-serif;
-        margin-top: 160px;
+        margin-top: 170px;
         padding: 0;
         display: block;
         justify-content: center;
@@ -169,7 +169,7 @@ body {
     }
 
     #chat-container .titulo{
-        padding-top: 100px;
+        padding-top: 10px;
         text-align: center;
         font-size: 20px;
         color: #000;
