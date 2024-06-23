@@ -136,6 +136,7 @@ body {
 @media(max-width: 900px){
     
     body {
+        height: 100%;
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
