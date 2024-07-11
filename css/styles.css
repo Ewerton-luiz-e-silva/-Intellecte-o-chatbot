@@ -158,6 +158,31 @@ img {
     color: #000;
 }
 
+
+/* Footer */
+footer {
+    padding-bottom: 1%;
+    width: 100%;
+    border-top: #000000 solid 3px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.des08 {
+    text-align: center;
+}
+
+.des08 h2 {
+    font-size: 20px;
+}
+
+.des08 p {
+    font-size: 15px;
+}
+
+.des08 span {
+    font-size: 15px;
+}
+
 @media(max-width: 900px){
     body {
         font-family: Arial, sans-serif;
